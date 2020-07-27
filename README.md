@@ -28,11 +28,9 @@ What I learned!
 
 
 ## Important express notes! 
-`const express = require('express')`
-:imports the express module for usage
+`const express = require('express')` --> imports the express module for usage
 
-`const app = express()` 
-:create ang express instance
+`const app = express()` --> create ang express instance
 
 `app.use()` --> method used to implement a middleware
 
