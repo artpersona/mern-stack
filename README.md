@@ -29,19 +29,19 @@ What I learned!
 
 ## Important express notes! 
 `const express = require('express')` --> imports the express module for usage
-
+---
 `const app = express()` --> create ang express instance
-
+---
 `app.use()` --> method used to implement a middleware
-
+---
 `app.use(express.static(__dirname + '/public'))` --> serves static file from root directory
-
+---
 `app.all('/slugname', (req,res,next) => {})` --> when the slug indicated is visited regardless of the request method([GET,POST,PUT, etc.])
-
+---
 `app.get()` --> for get requests
-
+---
 `app.post()` --> for post requests or addition of data to the system
-
+---
 `app.put()` --> used for updating existing data in the system
-
+---
 `app.delete()` --> used for deleting data in the system
