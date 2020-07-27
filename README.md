@@ -5,7 +5,9 @@ I'll be learning express for today since I have already learned how to create a 
 
 ## 
 ` npm init ` --> to intialize a Node environment
+
 ` npm init -y` --> initialize a Node environment with default values
+
 ` git init` --> initialize a git environment
 
 
