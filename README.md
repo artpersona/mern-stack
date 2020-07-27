@@ -33,7 +33,6 @@ What I learned!
 `app.use()` --> method used to implement a middleware
 `app.use(express.static(__dirname + '/public'))` --> serves static file from root directory
 `app.all('/slugname', (req,res,next) => {})` --> when the slug indicated is visited regardless of the request method([GET,POST,PUT, etc.])
-                                             --> it gets executed first!
 `app.get()` --> for get requests
 `app.post()` --> for post requests or addition of data to the system
 `app.put()` --> used for updating existing data in the system
